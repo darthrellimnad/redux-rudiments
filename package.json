@@ -4,8 +4,9 @@
   "description": "Composable, FSA-compliant reducers and other reusable utilities for use with Redux, React's useReducer hook, or whatever!",
   "main": "index.js",
   "scripts": {
-    "test": "jest",
-    "lint": "standard"
+    "test": "jest --watch",
+    "lint": "standard",
+    "cover": "jest --coverage"
   },
   "repository": {
     "type": "git",
