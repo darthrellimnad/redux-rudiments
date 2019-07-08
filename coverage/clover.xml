@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1562568512365" clover="3.2.0">
+  <project timestamp="1562568512366" name="All files">
+    <metrics statements="17" coveredstatements="17" conditionals="14" coveredconditionals="4" methods="15" coveredmethods="5" elements="46" coveredelements="26" complexity="0" loc="17" ncloc="17" packages="1" files="3" classes="3"/>
+    <file name="index.js" path="/Users/danielmiller/workspace/redux-rudiments/src/index.js">
+      <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+    </file>
+    <file name="reduceActions.js" path="/Users/danielmiller/workspace/redux-rudiments/src/reduceActions.js">
+      <metrics statements="4" coveredstatements="4" conditionals="4" coveredconditionals="4" methods="3" coveredmethods="3"/>
+      <line num="28" count="2" type="stmt"/>
+      <line num="29" count="2" type="cond" truecount="2" falsecount="0"/>
+      <line num="30" count="2" type="cond" truecount="2" falsecount="0"/>
+      <line num="31" count="4" type="stmt"/>
+    </file>
+    <file name="utils.js" path="/Users/danielmiller/workspace/redux-rudiments/src/utils.js">
+      <metrics statements="13" coveredstatements="13" conditionals="10" coveredconditionals="0" methods="12" coveredmethods="2"/>
+      <line num="1" count="2" type="stmt"/>
+      <line num="3" count="3" type="stmt"/>
+      <line num="5" count="2" type="stmt"/>
+      <line num="7" count="2" type="stmt"/>
+      <line num="9" count="2" type="stmt"/>
+      <line num="11" count="2" type="stmt"/>
+      <line num="13" count="2" type="cond" truecount="0" falsecount="2"/>
+      <line num="15" count="2" type="cond" truecount="0" falsecount="2"/>
+      <line num="17" count="2" type="cond" truecount="0" falsecount="2"/>
+      <line num="19" count="2" type="cond" truecount="0" falsecount="2"/>
+      <line num="21" count="2" type="stmt"/>
+      <line num="23" count="2" type="stmt"/>
+      <line num="25" count="2" type="cond" truecount="0" falsecount="2"/>
+    </file>
+  </project>
+</coverage>

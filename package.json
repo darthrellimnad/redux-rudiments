@@ -1,0 +1,37 @@
+{
+  "name": "redux-rudiments",
+  "version": "0.0.1",
+  "description": "Composable, FSA-compliant reducers and other reusable utilities for use with Redux, React's useReducer hook, or whatever!",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "lint": "standard"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/darthrellimnad/redux-rudiments.git"
+  },
+  "keywords": [
+    "redux",
+    "react",
+    "fsa",
+    "reducers"
+  ],
+  "author": "Daniel H. Miller",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/darthrellimnad/redux-rudiments/issues"
+  },
+  "homepage": "https://github.com/darthrellimnad/redux-rudiments#readme",
+  "devDependencies": {
+    "@babel/preset-env": "^7.5.0",
+    "flux-standard-action": "^2.1.0",
+    "jest": "^24.8.0",
+    "standard": "^12.0.1"
+  },
+  "standard": {
+    "env": [
+      "jest"
+    ]
+  }
+}
