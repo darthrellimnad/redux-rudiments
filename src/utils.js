@@ -10,13 +10,13 @@ export const isNil = (val) => val == null
 
 export const isUndefined = (val) => val === undefined
 
-export const isStringOrNull = (str) => isNil(str) || typeof str === 'string'
+export const isStringOrNil = (str) => isNil(str) || typeof str === 'string'
 
 export const isObject = (val) => !isNil(val) && typeof val === 'object'
 
 export const isNonArrayObject = (val) => !isArray(val) && isObject(val)
 
-export const isObjectOrNull = (val) => isNil(val) || isObject(val)
+export const isObjectOrNil = (val) => isNil(val) || isObject(val)
 
 export const isFunction = (val) => typeof val === 'function'
 
